@@ -6,5 +6,7 @@
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [hiccup "1.0.5"]
                  [datascript "0.18.12"]
-                 [http-kit "2.3.0"]]
+                 [http-kit "2.3.0"]
+                 [compojure "1.1.6"]
+                 [ring/ring-jetty-adapter "1.2.1"]]
   :repl-options {:init-ns test-x.core})
