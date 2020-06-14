@@ -1,10 +1,10 @@
 (ns test-x.view.page.container
   (:use [hiccup.form])
-  (:require [[test-x.lib.data_getter :as getter]]))
+  (:require [test-x.lib.data-getter :as getter]))
 
 
 
-(defn list []
+(defn list-container []
   [:div {:id "content"}
    [:h1 {:class "text-success"} "Hello Hunkongize!"]
    [:ul

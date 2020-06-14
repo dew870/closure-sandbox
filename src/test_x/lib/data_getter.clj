@@ -1,5 +1,5 @@
-(ns test-x.lib.data_getter
-  (:require [test-x.lib.data_seed :as seed]
+(ns test-x.lib.data-getter
+  (:require [test-x.lib.data-seed :as seed]
             [datascript.core :as d]))
 
 (defn get-data []

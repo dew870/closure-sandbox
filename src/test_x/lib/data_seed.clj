@@ -1,4 +1,4 @@
-(ns test-x.lib.data_seed)
+(ns test-x.lib.data-seed)
 
 (def seed-data
   [{ :db/id -1
